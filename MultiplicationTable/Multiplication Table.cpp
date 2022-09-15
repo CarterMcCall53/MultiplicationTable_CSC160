@@ -10,7 +10,7 @@
 using namespace std;
 
 int main() {
-	cout << "12 x 12 Multiplication Table:" << endl;
+	cout << "12 x 12 Multiplication Table:\n";
 	const int MAX = 12;
 	for (int i = 0; i <= MAX; i++) {
 		for (int j = 0; j <= MAX; j++) {
