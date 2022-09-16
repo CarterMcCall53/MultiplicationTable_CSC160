@@ -12,9 +12,9 @@ using namespace std;
 int main() {
 	int max;
 	do {
-		cout << "What would you like the max number to be on the multiplication table? (Max of 30): ";
+		cout << "What would you like the max number to be on the multiplication table? (6-22): ";
 		cin >> max;
-	} while (max > 30);
+	} while (max > 22 && max < 6);
 	cout << max << " by " << max << " Multiplication Table:" << endl;
 	for (int i = 1; i <= max; i++) {
 		for (int j = 1; j <= max; j++) {
