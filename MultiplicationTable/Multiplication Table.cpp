@@ -13,7 +13,7 @@ int main() {
 	int max;
 	do {
 		cout << "What would you like the max number to be on the multiplication table? (6-22): ";
-		cin >> max;
+		cin >> max; 
 	} while (max > 22 && max < 6);
 	cout << max << " by " << max << " Multiplication Table:" << endl;
 	for (int i = 1; i <= max; i++) {
