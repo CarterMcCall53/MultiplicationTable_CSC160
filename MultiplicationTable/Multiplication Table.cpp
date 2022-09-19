@@ -17,9 +17,9 @@ int main() {
 	int max = 0;
 	do {
 		do {
-			cout << "What would you like the max number to be on the multiplication table? (6-22): ";
+			cout << "What would you like the max number to be on the multiplication table? (6-31): ";
 			cin >> max;
-		} while (max < 6 || max > 22);
+		} while (max < 6 || max > 31);
 		cout << max << " by " << max << " Multiplication Table:" << endl;
 		for (int i = 1; i <= max; i++) {
 			for (int j = 1; j <= max; j++) {
