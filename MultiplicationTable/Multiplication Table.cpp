@@ -16,10 +16,10 @@ int main() {
 	char repChar;
 	int max = 0;
 	do {
-			do {
-				cout << "What would you like the max number to be on the multiplication table? (6-22): ";
-				cin >> max;
-			} while (max < 6 || max > 22);
+		do {
+			cout << "What would you like the max number to be on the multiplication table? (6-22): ";
+			cin >> max;
+		} while (max < 6 || max > 22);
 		cout << max << " by " << max << " Multiplication Table:" << endl;
 		for (int i = 1; i <= max; i++) {
 			for (int j = 1; j <= max; j++) {
